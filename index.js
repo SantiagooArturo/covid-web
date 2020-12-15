@@ -130,7 +130,7 @@ const buscarPais = (event) => {
     let encontroPais = false;
 
 
-    console.log(event.value);
+    //console.log(event.value);
 
     document.querySelector("#tabla").innerHTML = "";
 
