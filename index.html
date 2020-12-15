@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="documento">
+    <div class="container">
+        <br><br>
+        <!-- <button class="btn btn-info" onclick="consumoApi();">MOSTRAR DATA</button> -->
+
+        <h1>🦠 COVID DASHBOARD</h1>
+
+        <br><br><br>
+        <h3>DATOS A NIVEL GLOBAL</h3>
+        <br>
+
+
+        <div class="global" id="global">
+
+        </div>
+        
+
+        <br><br><br>
+        <h3>PAISES</h3>
+        <br>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">🏳</span>
+            <input type="text" class="form-control" id="buscador"  placeholder="INGRESA EL NOMBRE DE UN PAIS" onkeyup="buscarPais(this);" aria-label="Username"
+                aria-describedby="addon-wrapping">
+        </div>
+        <br>
+
+        <div class="tabla" id="tabla">
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
